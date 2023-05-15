@@ -30,9 +30,25 @@
 body {
   min-height: 100vh;
   font-family: var(--variable);
+  font-size: var(--BodyM);
   line-height: 150%;
+  color: var(--DarkElectricBlue);
 }
 
 h1, h2, h3, h4, h5 {
+  color: var(--Gunmetal);
+  font-family: var(--SemiBold);
   line-height: 110%;
+}
+
+img[alt="leftCurvedLine"] {
+  position: absolute;
+  left: 1205px;
+  top: 749px;
+}
+
+img[alt="rightCurvedLine"] {
+	position: absolute;
+	left: 305px;
+	top: 2203px;
 }

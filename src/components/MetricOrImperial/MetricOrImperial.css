@@ -1,0 +1,34 @@
+.firstSectionInput {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	color: rgba(94, 110, 133, 1);
+	font-size: var(--BodyS);
+}
+ 
+.firstSectionInput input {
+	padding: 20px 24px;
+	border-radius: 12px;
+	border: 1px solid hsla(198, 23%, 88%, 1);
+	font-size: var(--HeadingM);
+	letter-spacing: -0.05em;
+	width: 238px;
+	height: 69px;
+}
+
+#textKG, #textCM {
+	position: absolute;
+	top: 55px;
+	font-size: var(--HeadingM);
+	color: rgba(52, 95, 246, 1);
+	letter-spacing: -0.05em;
+	font-weight: 600;
+}
+
+#textCM {
+	left: 185px;
+}
+
+#textKG {
+	right: 20px;
+}

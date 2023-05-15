@@ -1,0 +1,25 @@
+#thirdSection {
+	margin: 0 24px 120px;
+	background: linear-gradient(290.1deg, rgba(214, 230, 254, 0.25) 0%, rgba(214, 252, 254, 0) 100%);
+	border-radius: 35px;
+	padding: 72px 117px 96px 116px;
+}
+ 
+#thirdSection-1 {
+	display: flex;
+	gap: 32px;
+}
+
+.thirdSectionItem {
+	flex-grow: 1;
+	height: 234px;
+}
+ 
+.thirdSectionItem img {
+	margin-bottom: 45px;
+}
+ 
+.thirdSectionItem h4 {
+	font-size: var(--HeadingM);
+	margin-bottom: 24px;
+}

@@ -1,0 +1,54 @@
+#fourthSection {
+	margin: 0 140px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#fourthSection-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	width: 564px;
+	margin-right: 132px;
+}
+
+#fourthSection-1 h2 {
+	font-size: var(--HeadingL);
+	letter-spacing: -0.05em;
+}
+
+#firstLine {
+	display: flex;
+}
+
+#secondLine {
+	align-self: flex-end;
+	margin: 32px 0 24px 0;
+}
+
+#thirdLine {
+	align-self: center;
+}
+
+.fourthSectionItem {
+	padding: 32px;
+	width: 365px;
+	background: var(--PureWhite);
+	box-shadow: 16px 32px 56px 0px hsla(211, 40%, 69%, 0.25);
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.fourthSectionItem div {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.fourthSectionTwoItems {
+	display: flex;
+	gap: 32px;
+}

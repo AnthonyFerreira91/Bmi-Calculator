@@ -1,0 +1,47 @@
+#firstSection-2-3 {
+	background: linear-gradient(90deg, #345FF7 0%, #587DFF 100%);
+	padding: 32px;
+	border-radius: 16px 70px 70px 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	color: var(--PureWhite);
+}
+
+#firstSection-2-3 p {
+	font-size: var(--BodyS);
+}
+
+#firstSectionWelcome {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+#firstSectionWelcome h4 {
+	font-size: var(--HeadingM);
+	color: var(--PureWhite);
+}
+
+#result-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	width: 206px;
+}
+
+#result-1 h4 {
+	color: var(--PureWhite);
+	font-size: var(--HeadingXL);
+}
+
+#result-1 p {
+	font-size: var(--BodyM);
+	font-family: var(--SemiBold);
+}
+
+#result-2 {
+	/* height: 84px; */
+	width: 206px;
+}
