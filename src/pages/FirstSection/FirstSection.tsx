@@ -8,6 +8,7 @@ export default function FirstSection() {
 	const [weight, setWeight] = useState<number>(0);
 	const [result, setResult] = useState<string>("");
 	const [idealWeight, setIdealWeight] = useState<number>(0);
+	const [imperial, setImperial] = useState<string>("false");
 
 	useEffect(() => {
 		if(height !== 0 && weight !== 0) {
@@ -24,6 +25,10 @@ export default function FirstSection() {
 		} else {
 			setWeight(parseInt(e.target.value))
 		}
+	}
+
+	const radioOnChange = (e: ChangeEvent<HTMLInputElement>) => {
+		setImperial(e.target.value);
 	}
 
 	return (
@@ -44,17 +49,15 @@ export default function FirstSection() {
 				<h3>Enter your details below</h3>
 				<div id="firstSection-2-1">
 					<div className="firstSectionRadio">
-						<input type="radio" name="metric" id="metric"/>
+						<input type="radio" name="metricOrImperial" value="false" onChange={radioOnChange} checked={imperial === "false"}/>
 						<label htmlFor="metric">Metric</label>
 					</div>
 					<div className="firstSectionRadio">
-						<input type="radio" name="imperial" id="imperial"/>
+						<input type="radio" name="metricOrImperial" value="true" onChange={radioOnChange} checked={imperial === "true"}/>
 						<label htmlFor="imperial">Imperial</label>
 					</div>
 				</div>
-				<div id ="firstSection-2-2">
-					<MetricOrImperial inputOnChange={inputOnChange}/>
-				</div>
+					<MetricOrImperial inputOnChange={inputOnChange} imperial={imperial}/>
 				<ShowResult result={result} idealWeight={idealWeight}/>
 			</div>
 		</section>

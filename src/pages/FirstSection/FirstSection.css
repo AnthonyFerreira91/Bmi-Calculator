@@ -1,12 +1,10 @@
 #firstSection {
 	margin: 1px 0 65px 24px;
 	height: 737px;
-	position: relative;
 }
  
 #firstSection-1 {
-	/* width: 978px; */
-	width: 64vw;
+	width: 978px;
 	height: 100%;
 	background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
 	border-radius: 0px 0px 35px 35px;
@@ -52,6 +50,7 @@
  
 #firstSection-2 h3 {
 	font-size: var(--HeadingM);
+	letter-spacing: -0.05em;
 }
  
 #firstSection-2-1 {
@@ -62,31 +61,38 @@
  
 .firstSectionRadio {
 	flex-grow: 1;
+	flex-basis: 20px;
 	display: flex;
 	gap: 18px;
+	margin-top: 1px;
 }
- 
-/*input[type="checkbox"] {
-	cursor: pointer;
-	visibility: hidden;
-}
- 
-input[type="checkbox"]::before {
-	border: 1px solid red;
-}
- 
-#metric, #imperial {
+
+.firstSectionRadio input[type="radio"] {
+	appearance: none;
+	width: 31px;
+	height: 31px;
 	border-radius: 50%;
-	background: red;
-} */
- 
+	position: relative;
+	top: -3.3px;
+	border: 1px solid #D8E2E7;
+	cursor: pointer;
+}
+
+.firstSectionRadio input[type="radio"]:hover {
+	border: 1px solid var(--Blue);
+}
+
+.firstSectionRadio input[type="radio"]:checked {
+	width: 15px;
+	height: 15px;
+	background: var(--Blue);
+	top: 4px;
+	border: 1px solid var(--Blue);
+	box-shadow: 0px 0px 0px 8px #e1e7fe;
+	margin: 0 6.5px 0 9.5px;
+}
+
 .firstSectionRadio label {
 	font-family: var(--SemiBold);
 	color: var(--Gunmetal);
-}
- 
-#firstSection-2-2 {
-	display: flex;
-	gap: 24px;
-	position: relative;
 }

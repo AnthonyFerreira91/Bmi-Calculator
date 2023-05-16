@@ -1,19 +1,16 @@
-.firstSectionInput {
+/* Metric */
+
+#firstSectionMetric {
+	display: flex;
+	gap: 24px;
+	position: relative;
+}
+
+.firstSectionMetric {
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
-	color: rgba(94, 110, 133, 1);
 	font-size: var(--BodyS);
-}
- 
-.firstSectionInput input {
-	padding: 20px 24px;
-	border-radius: 12px;
-	border: 1px solid hsla(198, 23%, 88%, 1);
-	font-size: var(--HeadingM);
-	letter-spacing: -0.05em;
-	width: 238px;
-	height: 69px;
 }
 
 #textKG, #textCM {
@@ -21,7 +18,6 @@
 	top: 55px;
 	font-size: var(--HeadingM);
 	color: rgba(52, 95, 246, 1);
-	letter-spacing: -0.05em;
 	font-weight: 600;
 }
 
@@ -31,4 +27,43 @@
 
 #textKG {
 	right: 20px;
+}
+
+/* Imperial */
+
+#firstSectionImperial {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.firstSectionImperial {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-size: var(--BodyS);
+}
+
+.imperialInput {
+	display: flex;
+	gap: 24px;
+	position: relative;
+}
+
+.imperialInput span {
+	position: absolute;
+	top: 29.5%;
+	color: var(--Blue);
+	font-size: var(--HeadingM);
+	font-weight: 600;
+	letter-spacing: -0.05em;
+	line-height: 29px;
+}
+
+#ft, #st {
+	right: 57.5%;
+}
+
+#in, #lbs {
+	right: 5%;
 }

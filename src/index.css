@@ -7,7 +7,6 @@
   --PureWhite: #FFFFFF;
 
   /* Font Family */
-  --variable: 'Inter', Arial, Helvetica, sans-serif;
   --Regular: 'InterRegular', Arial, Helvetica, sans-serif;
   --SemiBold: 'InterSemiBold', Arial, Helvetica, sans-serif;
 
@@ -29,7 +28,7 @@
 
 body {
   min-height: 100vh;
-  font-family: var(--variable);
+  font-family: var(--Regular);
   font-size: var(--BodyM);
   line-height: 150%;
   color: var(--DarkElectricBlue);
@@ -39,6 +38,22 @@ h1, h2, h3, h4, h5 {
   color: var(--Gunmetal);
   font-family: var(--SemiBold);
   line-height: 110%;
+}
+
+input[type="text"] {
+  font-family: var(--Regular);
+  height: 69px;
+	max-width: 238px;
+	letter-spacing: -0.05em;
+	font-size: var(--HeadingM);
+	border: 1px solid var(--Border);
+	border-radius: 12px;
+	padding: 20px 24px;
+  font-weight: 600;
+}
+
+input:hover {
+  cursor: pointer;
 }
 
 img[alt="leftCurvedLine"] {
