@@ -1,12 +1,11 @@
 /* Metric */
-
 #firstSectionMetric {
 	display: flex;
 	gap: 24px;
-	position: relative;
 }
 
 .firstSectionMetric {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
@@ -30,7 +29,6 @@
 }
 
 /* Imperial */
-
 #firstSectionImperial {
 	display: flex;
 	flex-direction: column;
@@ -66,4 +64,36 @@
 
 #in, #lbs {
 	right: 5%;
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+	/* Metric */
+	.firstSectionMetric {
+		flex-grow: 1;
+	}
+	.firstSectionMetric input {
+		max-width: 100%;
+		min-width: 100%;
+	}
+	#textCM, #textKG {
+		left: unset;
+		right: 10%;
+	}
+	/* Imperial */
+	.imperialInput input {
+		max-width: 48.1%;
+		min-width: 48.1%;
+	}
+	#ft, #st {
+		right: 57.2%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#firstSectionMetric {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
 }

@@ -67,3 +67,12 @@ img[alt="rightCurvedLine"] {
 	left: 305px;
 	top: 2203px;
 }
+
+@media screen and (max-width: 768px) {
+  img[alt="leftCurvedLine"] {
+    display: none;
+  }
+  img[alt="rightCurvedLine"] {
+    display: none;
+  }
+}

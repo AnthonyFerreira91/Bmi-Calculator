@@ -1,6 +1,6 @@
 import './ThirdSection.css';
 
-export default function ThirdSection() {
+export function ThirdSection() {
 	return (
 		<section id='thirdSection'>
       <div id='thirdSection-1'>
@@ -9,8 +9,8 @@ export default function ThirdSection() {
           <div>
             <h4>Healthy eating</h4>
             <p>
-              Healthy eating promotes weight control,<br/>
-              disease prevention, better digestion, immunity,<br/>
+              Healthy eating promotes weight control,
+              disease prevention, better digestion, immunity,
               mental clarity, and mood.
             </p>
           </div>
@@ -20,8 +20,8 @@ export default function ThirdSection() {
           <div>
             <h4>Regular exercise</h4>
             <p>
-              Exercise improves fitness, aids weight control,<br/>
-              elevates mood, and reduces disease risk,<br/>
+              Exercise improves fitness, aids weight control,
+              elevates mood, and reduces disease risk,
               fostering wellness and longevity.
             </p>
           </div>
@@ -31,8 +31,8 @@ export default function ThirdSection() {
           <div>
             <h4>Adequate sleep</h4>
             <p>
-              Sleep enhances mental clarity, emotional<br/>
-              stability, and physical wellness, promoting<br/>
+              Sleep enhances mental clarity, emotional
+              stability, and physical wellness, promoting
               overall restoration and rejuvenation.
             </p>
           </div>

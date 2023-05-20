@@ -1,7 +1,7 @@
-import FirstSection from "./pages/FirstSection/FirstSection";
-import SecondSection from "./pages/SecondSection/SecondSection";
-import ThirdSection from "./pages/ThirdSection/ThirdSection";
-import FourthSection from "./pages/FourthSection/FourthSection";
+import { FirstSection } from "./pages/FirstSection/FirstSection";
+import { SecondSection } from "./pages/SecondSection/SecondSection";
+import { ThirdSection } from "./pages/ThirdSection/ThirdSection";
+import { FourthSection } from "./pages/FourthSection/FourthSection";
 
 function App() {
   return (

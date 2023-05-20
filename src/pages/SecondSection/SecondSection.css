@@ -20,3 +20,68 @@
 	font-size: var(--HeadingL);
 	letter-spacing: -0.05em;
 }
+
+@media screen and (max-width: 768px) {
+	#secondSection {
+		margin: 50px 0 0;
+		width: 100%;
+		height: unset;
+	}
+	#secondSection img[alt="manEating"] {
+		height: unset;
+		width: 56.6%;
+		position: relative;
+		left: -38px;
+	}
+	#secondSection-1 {
+		margin: 0;
+		flex-grow: 1;
+		flex-basis: 20px;
+	}
+	#secondSection-1 h2 {
+		margin-bottom: 32px;
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#secondSection {
+		margin: 435px 0 0;
+		align-items: center;
+		flex-direction: column;
+	}
+	#secondSection img[alt="manEating"] {
+		height: unset;
+		width: 100%;
+		position: unset;
+		left: unset;
+		margin-bottom: 48px;
+	}
+	#secondSection-1 {
+		flex-grow: unset;
+		flex-basis: unset;
+		width: 90%;
+	}
+	#secondSection-1 h2 {
+		margin-bottom: 32px;
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 395px) {
+	#secondSection {
+		margin-top: 500px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#secondSection {
+		margin-top: 550px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	#secondSection {
+		margin-top: 600px;
+	}
+}

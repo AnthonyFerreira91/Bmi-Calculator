@@ -21,5 +21,53 @@
  
 .thirdSectionItem h4 {
 	font-size: var(--HeadingM);
+	font-weight: 600;
+	line-height: 29px;
+	letter-spacing: -0.05em;
 	margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+	#thirdSection {
+		margin: 80px 0;
+		border-radius: unset;
+		padding: 60px 43px 60px 39px;
+	}
+	#thirdSection-1 {
+		flex-direction: column;
+		gap: 40px;
+	}
+	.thirdSectionItem {
+		flex-grow: 1;
+		height: unset;
+		display: flex;
+		gap: 40px;
+		align-items: center;
+	}
+	.thirdSectionItem img {
+		margin-bottom: unset;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#thirdSection {
+		width: 100%;
+		margin: 50px 0;
+		padding: 60px 0;
+		display: flex;
+		justify-content: center;
+	}
+	#thirdSection-1 {
+		width: 85%;
+	}
+	.thirdSectionItem {
+		flex-grow: unset;
+		gap: 32px;
+		flex-direction: column;
+		align-items: unset;
+	}
+	.thirdSectionItem img {
+		width: 64px;
+		height: 64px;
+	}
 }
