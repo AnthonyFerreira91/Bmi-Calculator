@@ -21,12 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
-![myScreenshot](./screenshot.jpg)
+![myScreenshot](https://github.com/Matrixfrpro33/Bmi-Calculator/blob/cd5a72d722cfb9c442bf6ead08de39cea9a9f837/screenshot/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/bmi-calculator-react-typescript-sr06bl_p1U](https://www.frontendmentor.io/solutions/bmi-calculator-react-typescript-sr06bl_p1U)
+- Live Site URL: [https://bmi-calculator-nnyn5t98q-matrixfrpro33.vercel.app/](https://bmi-calculator-nnyn5t98q-matrixfrpro33.vercel.app/)
 
 ### Built with
 
@@ -39,3 +39,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Matrixfrpro33](https://www.frontendmentor.io/profile/Matrixfrpro33)
+- GitHub - [@Matrixfrpro33](https://github.com/Matrixfrpro33)
