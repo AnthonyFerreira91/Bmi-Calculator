@@ -4,7 +4,6 @@
 }
  
 #firstSection-1 {
-	/* width: 978px; */
 	width: 64.7%;
 	height: 100%;
 	background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
@@ -18,7 +17,6 @@
  
 #firstSection-1-1 {
 	margin-left: 116px;
-	/* width: 564px; */
 	width: 70%;
 	display: flex;
 	flex-direction: column;
@@ -31,7 +29,6 @@
 }
 
 #firstSection-1-1 p {
-	/* width: 465px; */
 	width: 65%;
 	height: 96px;
 }
@@ -67,8 +64,7 @@
 	flex-basis: 20px;
 	display: flex;
 	gap: 18px;
-	margin-top: 1px;
-	/*ATTENTION Mettre un background red Align Center and remove Margin top !!!! */
+	align-items: center;
 }
 
 .firstSectionRadio input[type="radio"] {
@@ -77,10 +73,8 @@
 	height: 31px;
 	border-radius: 50%;
 	position: relative;
-	top: -3.3px;
 	border: 1px solid #D8E2E7;
 	cursor: pointer;
-	/* Verifier avec Background red, input centrer sur sa hauteur ?*/
 }
 
 .firstSectionRadio input[type="radio"]:hover {
@@ -91,7 +85,6 @@
 	width: 15px;
 	height: 15px;
 	background: var(--Blue);
-	top: 4px;
 	border: 1px solid var(--Blue);
 	box-shadow: 0px 0px 0px 8px #e1e7fe;
 	margin: 0 6.5px 0 9.5px;
@@ -102,7 +95,6 @@
 	color: var(--Gunmetal);
 }
 
-/* TABLET */
 @media screen and (max-width: 1400px) {
 	#firstSection {
 		margin: 0;
