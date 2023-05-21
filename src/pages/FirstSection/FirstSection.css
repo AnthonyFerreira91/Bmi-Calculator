@@ -91,7 +91,7 @@
 }
 
 .firstSectionRadio label {
-	font-family: var(--SemiBold);
+	font-weight: var(--SemiBold);
 	color: var(--Gunmetal);
 }
 

@@ -39,7 +39,7 @@
 
 #result-1 p {
 	font-size: var(--BodyM);
-	font-family: var(--SemiBold);
+	font-weight: var(--SemiBold);
 }
 
 #result-2 {
