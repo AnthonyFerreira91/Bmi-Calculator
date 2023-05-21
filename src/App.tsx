@@ -7,10 +7,10 @@ function App() {
   return (
     <div id="app">
       <FirstSection/>
-      <img src="/src/assets/images/pattern-curved-line-left.svg" alt="leftCurvedLine" />
+      <img src="/assets/images/pattern-curved-line-left.svg" alt="leftCurvedLine" />
       <SecondSection/>
       <ThirdSection/>
-      <img src="/src/assets/images/pattern-curved-line-right.svg" alt="rightCurvedLine" />
+      <img src="/assets/images/pattern-curved-line-right.svg" alt="rightCurvedLine" />
       <FourthSection/>
     </div>
   )

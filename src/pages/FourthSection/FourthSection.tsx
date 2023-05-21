@@ -16,7 +16,7 @@ export function FourthSection() {
           <div id="gender" className="fourthSection-2-Item">
             <div className="fourthSection-2-Item-Content">
               <div className="fourthSection-2-Item-Content-Title">
-                <img src="/src/assets/images/icon-gender.svg" alt="gender" />
+                <img src="/assets/images/icon-gender.svg" alt="gender" />
                 <h5>Gender</h5>
               </div>
               <p>
@@ -29,7 +29,7 @@ export function FourthSection() {
           <div className="fourthSection-2-Item">
             <div className="fourthSection-2-Item-Content">
               <div className="fourthSection-2-Item-Content-Title">
-                <img src="/src/assets/images/icon-age.svg" alt="age" />
+                <img src="/assets/images/icon-age.svg" alt="age" />
                 <h5>Age</h5>
               </div>
               <p>
@@ -42,7 +42,7 @@ export function FourthSection() {
           <div className="fourthSection-2-Item">
             <div className="fourthSection-2-Item-Content">
               <div className="fourthSection-2-Item-Content-Title">
-                <img src="/src/assets/images/icon-muscle.svg" alt="muscle" />
+                <img src="/assets/images/icon-muscle.svg" alt="muscle" />
                 <h5>Muscle</h5>
               </div>
               <p>
@@ -56,7 +56,7 @@ export function FourthSection() {
           <div className="fourthSection-2-Item">
             <div className="fourthSection-2-Item-Content">
               <div className="fourthSection-2-Item-Content-Title">
-                <img src="/src/assets/images/icon-pregnancy.svg" alt="pregnancy" />
+                <img src="/assets/images/icon-pregnancy.svg" alt="pregnancy" />
                 <h5>Pregnancy</h5>
               </div>
               <p>
@@ -72,7 +72,7 @@ export function FourthSection() {
           <div className="fourthSection-2-Item">
             <div className="fourthSection-2-Item-Content">
               <div className="fourthSection-2-Item-Content-Title">
-                <img src="/src/assets/images/icon-race.svg" alt="race" />
+                <img src="/assets/images/icon-race.svg" alt="race" />
                 <h5>Race</h5>
               </div>
               <p>

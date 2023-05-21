@@ -5,7 +5,7 @@ export function ThirdSection() {
 		<section id='thirdSection'>
       <div id='thirdSection-1'>
         <div className="thirdSectionItem">
-          <img src="/src/assets/images/icon-eating.svg" alt="iconEating" />
+          <img src="/assets/images/icon-eating.svg" alt="iconEating" />
           <div>
             <h4>Healthy eating</h4>
             <p>
@@ -16,7 +16,7 @@ export function ThirdSection() {
           </div>
         </div>
         <div className="thirdSectionItem">
-          <img src="/src/assets/images/icon-exercise.svg" alt="iconExercice" />
+          <img src="/assets/images/icon-exercise.svg" alt="iconExercice" />
           <div>
             <h4>Regular exercise</h4>
             <p>
@@ -27,7 +27,7 @@ export function ThirdSection() {
           </div>
         </div>
         <div className="thirdSectionItem">
-          <img src="/src/assets/images/icon-sleep.svg" alt="iconeSleep" />
+          <img src="/assets/images/icon-sleep.svg" alt="iconeSleep" />
           <div>
             <h4>Adequate sleep</h4>
             <p>

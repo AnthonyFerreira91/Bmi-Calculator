@@ -3,7 +3,7 @@ import './SecondSection.css';
 export function SecondSection() {
   return (
 		<section id='secondSection'>
-      <img src="/src/assets/images/image-man-eating.webp" alt="manEating" />
+      <img src="/assets/images/image-man-eating.webp" alt="manEating" />
       <div id='secondSection-1'>
         <h2>What your BMI result means</h2>
         <p>

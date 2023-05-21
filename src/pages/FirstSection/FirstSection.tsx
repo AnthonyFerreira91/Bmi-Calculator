@@ -6,7 +6,7 @@ export function FirstSection() {
 	return (
 		<section id='firstSection'>
 			<div id='firstSection-1'>
-				<img src="/src/assets/images/logo.svg" alt="logo" />
+				<img src="/assets/images/logo.svg" alt="logo" />
 				<div id="firstSection-1-1">
 					<h1>Body Mass Index Calculator</h1>
 					<p>
