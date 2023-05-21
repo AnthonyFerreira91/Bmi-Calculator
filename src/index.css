@@ -58,7 +58,7 @@ input:hover {
 
 img[alt="leftCurvedLine"] {
   position: absolute;
-  left: 1205px;
+  right: 16%;
   top: 749px;
 }
 
@@ -68,7 +68,7 @@ img[alt="rightCurvedLine"] {
 	top: 2203px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1350px) {
   img[alt="leftCurvedLine"] {
     display: none;
   }

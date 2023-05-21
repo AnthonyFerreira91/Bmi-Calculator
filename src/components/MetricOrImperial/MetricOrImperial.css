@@ -67,7 +67,7 @@
 }
 
 /* TABLET */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1400px) {
 	/* Metric */
 	.firstSectionMetric {
 		flex-grow: 1;
@@ -90,7 +90,7 @@
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	#firstSectionMetric {
 		display: flex;
 		flex-direction: column;

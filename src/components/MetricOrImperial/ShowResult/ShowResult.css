@@ -47,7 +47,7 @@
 	width: 206px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1310px) {
 	#result-1, #result-2 {
 		width: unset;
 		flex-grow: 1;
@@ -58,7 +58,7 @@
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	#firstSection-2-3 {
 		border-radius: 16px;
 		flex-direction: column;

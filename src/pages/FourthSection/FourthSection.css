@@ -22,10 +22,10 @@
 #fourthSection-2 {
 	display: flex;
 	flex-wrap: wrap;
-	width: 961px;
+	width: 960px;
 	height: 804px;
 	position: absolute;
-	left: 280px;
+	right: 1px;
 }
 
 .fourthSection-2-Item {
@@ -72,7 +72,7 @@
 	letter-spacing: -0.05em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1350px) {
 	#fourthSection {
 		margin: 0 43px 90px 39px;
 		width: 89.3%;
@@ -142,7 +142,7 @@
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	#fourthSection {
 		display: flex;
 		flex-direction: column;
